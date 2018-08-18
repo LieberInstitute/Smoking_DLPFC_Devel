@@ -11,37 +11,37 @@ Coming soon
 * *summary_of_sample_characteristics_Table1.R*: Summarising demographic information for prenatal and adult cohorts (Table 1).
 
 #### Differential expression analysis runs
-* *limma_differential_expression_analyses_sva_cluster.R*:
-* *limma_differential_expression_analyses_sva_cluster_interaction.R*:
-* *limma_differential_expression_adult_schizo_replication.R*:
-* *limma_differential_expression_adult_sensitivity_analysis.R*:
-* *limma_differential_expression_analyses_sva_cluster_AA_only_prenatal_sensitivity.R*:
-* *limma_differential_expression_analyses_sva_cluster_developmental_nonSmokers_reviewer01_suggestion.R*
-* *limma_differential_expression_analyses_sva_cluster_secondaryAnalysis_review03Suggestion_noSVA.R*
+* *limma_differential_expression_analyses_sva_cluster.R*: Testing for differential expression between smoking exposed and unexposed prenatal samples as well between adult non-smokers and smokers.
+* *limma_differential_expression_analyses_sva_cluster_interaction.R*: Testing for development-dependent effects of smoke exposure.
+* *limma_differential_expression_adult_schizo_replication.R*: Testing for replication of adult smoking effects using a seperate cohort of patients diagnosed with schizophrenia.
+* *limma_differential_expression_adult_sensitivity_analysis.R*: Ordinal sensitivity model for smoking effects in adults.
+* *limma_differential_expression_analyses_sva_cluster_AA_only_prenatal_sensitivity.R*: Sensitivity analysis of prenatal differential expression analysis using only African-american samples (no Caucasian samples, N=3).
+* *limma_differential_expression_analyses_sva_cluster_developmental_nonSmokers_reviewer01_suggestion.R*: Running differential expression analysis to delineate developmental effects (no smoke-exposure samples only).
+* *limma_differential_expression_analyses_sva_cluster_secondaryAnalysis_review03Suggestion_noSVA.R*: Running differential expression analyses without surrogate variable analysis (SVA) as a sensitivity model.
 
 #### Results summary
 
 ###### General output and tables
-* *mainEffect_smoking_results.R*
-* *interaction_results_table.R*
-* *interactionEffect_smoking_results.R*
-* *ordinal_sensitivity_results.R*
-* *checking_SLCA12A5_SLC12A2_DE.R*
+* *mainEffect_smoking_results.R*: Summarising effects of smoking exposure on gene in expression in prenatal and adult -only cohorts.
+* *interaction_results_table.R*: Summarising development-dependent smoking exposure effects into a table. 
+* *interactionEffect_smoking_results.R*: Summarising development-dependent smoking exposure effects.
+* *ordinal_sensitivity_results.R*: Asessing the effect of smoking in adults using a smoking-intensity ordinal sensitivity model.
+* *checking_SLCA12A5_SLC12A2_DE.R*: Post-hoc analyses of genes SLC12A5 and SLC12A2.
 
 ###### Visualizations
-* *CEP85_junc_plots.R*
-* *MARCO_gene_plots.R*
-* *Prenatal_gene_plots.R*
-* *interaction_genes_boxplots.R*
+* *CEP85_junc_plots.R*: Visualizing significantly differentially expressed *CEP85* exon-exon junctions.
+* *MARCO_gene_plots.R*: Visualizing differential expression of *MARCO*.
+* *Prenatal_gene_plots.R*: Boxplots of significant differentially expressed genes in the prenatal cohort.
+* *interaction_genes_boxplots.R*: Boxplots of significant development-dependent smoking-exposure genes.
 
 #### Gene ontology analyses
-* *GO_adult.R*
-* *GO_fetal.R*
-* *gene_length_bias_enrichment_analysis.R*
+* *GO_adult.R*: Gene ontology analysis of differentially expressed genes in adults.
+* *GO_fetal.R*: Gene ontology od differentially expressed genes in prenatal samples.
+* *gene_length_bias_enrichment_analysis.R*: Assessing whether gene length associates with differential gene expression and hence influences gene ontology results.
 
 #### Functional enrichment analysis
-* *autism_geschwind_enrichmentTest.R*
-* *autism_geschwind_tstat_cutTable.R*
-* *DE_Results_Functional_Analysis_devel_sensitivity.R*
-* *schizophrenia_LIBD_enrichmentTest.R*
-* *visualizing_prenatal_DE_and_autism_geschwind_DE.R*
+* *autism_geschwind_enrichmentTest.R*: Testing for enrichment of differentially expressed genes for ASD-associated gene expression signatures. 
+* *autism_geschwind_tstat_cutTable.R*: Pulling ASD statistics for differentially expressed genes.
+* *DE_Results_Functional_Analysis_devel_sensitivity.R*: Assessing developmentally regulated genes.
+* *schizophrenia_LIBD_enrichmentTest.R*: Testing for enrichment of differentially expressed genes for schizophrenia-associated gene expression signatures.
+* *visualizing_prenatal_DE_and_autism_geschwind_DE.R*: Visualizations of genes associated with both smoking exposure and ASD.
