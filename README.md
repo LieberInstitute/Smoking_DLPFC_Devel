@@ -3,6 +3,9 @@ Code used to generate results for the paper: *Developmental effects of maternal 
 ## Citation
 Coming soon
 
+## Brief analysis summary
+We used a large cohort of prenatal (N=33) and adult (N=207) postmortem dorsolateral prefrontal cortex (DLPFC) samples to identify genes associated with exposure of smoking. These genes differed between prenatal and adult life, suggesting smoking exerts distinct transcriptomic effects dependent upon the developmental stage of the human cortex. Furthermore, these genes affected by smoking during prenatal life and in a developmentally-dependent fashion were enriched for the gene signatures of neuropsychiatric disease, especially autism spectrum disorder. Overall, these results support the possibility of maternal smoking during pregnancy as conferring molecular changes that may increase risk for neuropsychiatric disease later in the offspring's life.
+
 ## Script summary
 
 #### Exploratory data analysis
