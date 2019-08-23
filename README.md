@@ -1,5 +1,7 @@
 Code used to generate results for the paper: *Developmental effects of maternal smoking during pregnancy on the human frontal cortex transcriptome*
 
+[![DOI](https://zenodo.org/badge/131527591.svg)](https://zenodo.org/badge/latestdoi/131527591)
+
 ## Citation
 Semick SA, Collado-Torres L, Markunas CA, Shin JH, Deep-Soboslay A, Tao R, Huestis MA, Bierut LJ, Maher BS, Johnson EO, Hyde TM, Weinberger DR, Hancock DB, Kleinman JE, Jaffe AE. Developmental effects of maternal smoking during pregnancy on the human frontal cortex transcriptome. Molecular psychiatry. 2018 Aug 21:1.
 
